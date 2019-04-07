@@ -35,5 +35,6 @@ attr_reader :discount, :title
   def void_last_transaction
     @total -= self.total
   end
+
 # binding.pry
 end
